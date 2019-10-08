@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "ramda": "^0.25.0"
+    "ramda": "^0.25.0",
+	"vtex.some-linked-app": "https://graphqltypes--storecomponents.myvtex.com/_v/private/typings/linked/v1/vtex.catalog-graphql@1.21.0+build1569955711/public/@types/vtex.catalog-graphql" 
   },
   "devDependencies": {
     "@vtex/test-tools": "^1.0.0",
