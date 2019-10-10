@@ -4,6 +4,7 @@ import { Clients } from './clients'
 import { method } from './middlewares/method'
 import { status } from './middlewares/status'
 import { validate } from './middlewares/validate'
+import { longRun } from './middlewares/longRun'
 
 const TIMEOUT_MS = 800
 
@@ -47,7 +48,8 @@ export default new Service<Clients, State>({
     status: [
       method,
       validate,
-      status,
+      status
     ],
+    longRun,
   },
 })
