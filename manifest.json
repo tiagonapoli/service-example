@@ -13,7 +13,7 @@
   "credentialType": "absolute",
   "policies": [
     {
-      "name": "otbound-access",
+      "name": "outbound-access",
       "attrs": {
         "host": "httpstat.us",
         "path": "*"
