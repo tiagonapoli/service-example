@@ -7,7 +7,7 @@
   "routes": {
     "test": {
       "path": "/_v/test",
-      "public": true
+      "public": false
     }
   }
 }
