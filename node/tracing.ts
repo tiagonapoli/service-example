@@ -15,8 +15,8 @@ import {
         param: 1,
       },
       reporter: {
-        agentHost: 'jaeger.test-4a.ingress.vtex.io',
         logSpans: true,
+        agentHost: process.env.VTEX_OWN_NODE_IP
       },
     }
   

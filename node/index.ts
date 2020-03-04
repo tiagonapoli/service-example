@@ -8,6 +8,13 @@ console.log("IMPORT DE B", b);
 
 const tracer = initServiceTracer()
 
+// const socket = dgram.createSocket('udp4')
+
+// socket.send('olar', 6832, 'jaeger.test-4a.ingress.vtex.io', (err, sent) => {
+//   console.log(err, sent)
+// })
+
+
 export default new Service({
   routes: {
     test: (ctx: ServiceContext) => {
